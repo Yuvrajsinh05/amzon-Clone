@@ -1,3 +1,76 @@
+*{
+    margin: 0%;
+}
+li{
+    list-style: none;
+}
+
+
+/* nav  */
+#weather{
+    background-color: transparent;
+    color: white;
+    border: none;
+    line-height: 15px;
+}
+#weatherOut{
+    z-index: 1000000;
+    line-height: 15px;
+    /* border: 2px solid black; */
+
+}
+#wegeo{
+    position: absolute;
+    float: left;
+    /* border: 2px solid black; */
+    width: 350px;
+    z-index: 1111000000000;
+    height: 100px;
+    /* margin: auto; */
+    margin-left: 628px;
+    margin-top: 304px;
+    /* border: 2px solid black; */
+    padding: 26px;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    height: 82px;
+    margin-top: -2%;
+}
+
+.navitem{
+    float: left;
+    color: white;
+    margin-top: 30px;
+    margin-left: 45px;
+    line-height: 16px;
+}
+.navitem>.dropdown{
+    margin-top: 7px;
+}
+.navitem>span>.dropdown>input{
+    height: 38px;
+    width: 580px;
+    border-radius: 3px;
+    border: none;
+    margin-left: 62px;
+}
+.navitem:hover{
+    color: chocolate;
+}
+.navD1{
+    position: absolute;
+}
+
+.nav2{
+    margin-top: 0px;
+}
+.nav2>.container-fluid>.navbar-brand:hover{
+    color: rgb(214, 168, 168);
+}
+
+/* main -section */
 
 #modebut{
     position: absolute;
@@ -64,4 +137,67 @@
 
     
 
+
+
+
+
+
+
+/* footer  */
+
+#bontop{
+    background-color: blue;
+    text-align: center;
+}
+#bontop>a{
+    text-decoration: none;
+    color: white;
+}
+#footmain{
+    background-color: lightseagreen;
+}
+#footmain>table{
+    margin: auto;
+    color: white;
+    /* margin-top: 25px; */
+    /* position: absolute; */
+}
+#footmain th,td{
+    padding-left: 30px;
+}
+#footmain th{
+    font-size: 30px;
+}
+#footmain td{
+   text-align: center;
+   line-height: 40px;
+}
+#footmain img{
+  width: 100px;
+  margin-left: 530px;
+  margin-top: 50px;
+  height: 50px;
+}
+
+#footmain button {
+    margin-left: 120px;
+    margin-top: 48px;
+    position: absolute;
+}
+#footmain>p{
+    width: 65%;
+    margin: auto;
+
+}
+#footmain>p>span{
+    color: white;
+    margin-left: 10px;
+}
+
+
+/* logic css */
+.gridbox14{
+    background-color: black;
+    color:white;
+} 
 
